@@ -1,6 +1,6 @@
 
 const form= require("../pageobjects/form.Details")
-
+const test= require("../resource/testData.json")
 
 describe('Validating title page', () => {
     it('validate the title', async () => {
@@ -15,7 +15,7 @@ describe('Validating title page', () => {
   });
  
     it('Entering the user details', async () => {
-    await form.userDetails('vandna','sharma','test@gmail.com','UK (+44)','9810470884','gzb','cv','up','201001','Algeria',"15/08/2021")
+    await form.userDetails(test.formData.firstname, test.formData.lasttname,test.formData.email,test.formData.country_dropdown,test.formData.phoneNumber,test.formData.addressLine1,test.formData.addressLine2,test.formData.state,test.formData.postalCode,test.formData.country_1,test.formData.dob)
 
     });
     

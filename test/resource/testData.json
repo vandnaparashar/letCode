@@ -1,0 +1,15 @@
+{
+    "formData": {
+        "firstname" : "vandna",
+        "lasttname": "sharma",
+        "email": "test@gmail.com",
+        "country_dropdown" : "UK (+44)",
+        "phoneNumber" : "9810470884",
+        "addressLine1" : "gzb",
+        "addressLine2" : "cv",
+        "state" : "up",
+        "postalCode" : "201001",
+        "country_1": "Algeria",
+        "dob": "15/08/2021"
+    }
+}
